@@ -1,0 +1,115 @@
+@import url();
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    display: flex;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: grey;
+}
+
+.containe{
+    max-width: 700px;
+    width: 100%;
+    background: rgb(219, 217, 213);
+    padding: 25px 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: 3px solid rgb(64, 63, 63);
+    margin-bottom: 20px;
+}
+.container1{
+    max-width: 700px;
+    width: 100%;
+}
+.containe .title{
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+}
+
+.containe form .user-details{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+form .user-details .input-box{
+    margin: 20px 0 12px 0;
+    
+    width: calc(100% / 2-20px);
+}
+ 
+.user-details .input-box .details{
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 17px;
+    color: rgb(65, 64, 64);
+}
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+#sumbit{
+    height: 40px;
+    width: 80px;
+}
+#gender{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+#category{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+input{
+    margin-top: 10px;
+}
+.register{
+    background-color: orange;
+    height: 40px;
+    width: 300px;
+    border: 1px orange;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.cancel{
+    background-color: rgb(130, 126, 126);
+    height: 40px;
+    width: 300px;
+    border: 1px orange;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-top: 30px;
+}

@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>Card Replacement</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <link rel="stylesheet" href="../CSS/cardReplacement.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- nav bar starts -->
+        <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white me-5 fw-bold" href="#"> <i class="fa-solid fa-earth-america" style="color: orange;"></i> <span id="pageTitle">TransitCard</span> </a>
+                <button class="navbar-toggler collapsed" type="buton" data-bs-toggle="collapse" data-bs-target="#navbar" aria-expanded="false" aria-controls="#navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item me-2">
+                            <a class="nav-link text-white" href="./home.html">Home</a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="nav-link text-white" href="./home.html">Concession Cards</a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="nav-link text-white" href="./home.html">Services</a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="nav-link text-white" href="./home.html">Travel Guide</a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="nav-link text-white" href="./home.html">Contact us</a>
+                        </li>
+                    </ul>
+                    <div class="nav-item ms-auto">
+                        <button class="btn btn-outline-light "> <i class="fa-solid fa-right-to-bracket"></i> &nbsp; Login</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar ends -->
+
+        <div class="whole">
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col-lg-4"><p class="intro">Card Replacement</p></div>
+                    <div class="col-lg-8">
+                        <p class="introDes">You can replace and claim your card at any time. <br> To get a new card, you have to <span id="deactivate">Deactivate</span> your old card</p>
+                        <!-- <button class="btn btn-danger mt-3" style="width: 180px;display: block; margin-left: auto; margin-right: auto;"> <span id="btnFont">Deactivate</span> </button> -->
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" style="display: block; margin-left:auto; margin-right: auto;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Deactivate
+                        </button>
+    
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Deactivation</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Mobile Number</label>
+                                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="9345260744">
+                                              </div>
+                                              <div class="mb-3">
+                                                <label for="exampleFormControlTextarea1" class="form-label">Password</label>
+                                                <input type="password" class="form-control" id="exampleFormControlTextarea1">
+                                              </div>
+                                              <button type="button" class="btn btn-warning" style="width: 400px;display: block; margin-left: auto; margin-right: auto;">Submit</button>
+                                              <hr>
+                                              <p style="color: red;">A six digit password will be sent to your mobile number</p>
+                                              <div class="mb-3">
+                                                <label for="exampleFormControlTextarea1" class="form-label">OTP</label>
+                                                <input type="text" class="form-control" id="exampleFormControlTextarea1" placeholder="603241">
+                                              </div>
+
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary " data-bs-dismiss="modal" style="width: 200px;">Close</button>
+                                        <button type="button" class="btn btn-warning me-4" style="width: 200px;">Confirm</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="mt-5">
+
+                
+
+            </div>
+        </div>
+    </body>
+</html>

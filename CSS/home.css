@@ -1,0 +1,142 @@
+.carditems img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.consessionHeading{
+    margin-bottom: 70px;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: overline;
+}
+#heading{
+    font-size: 55px;
+    font-weight: 500;
+    text-align: center;
+}
+#desctiption{
+    text-align: center;
+    font-size: 25px;
+}
+#insideBtn{
+    font-size: 24px;
+}
+#getStarted{
+    font-size: 22px;
+}
+.mainBtn{
+    width: 500px;
+    height: 70px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+.getStarted {
+    position: relative; 
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li:hover{
+    font-size: 17px;
+    line-height: 15px;
+    transition-duration: 0.5s;
+}
+#pageTitle:hover{
+    color: orange;
+    font-size: 22px;
+    transition-duration: 0.3s;
+}
+.getStarted::before {    
+      content: "";
+      background-image: url(../Assets/customerBgCropped.jpg);
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
+}
+.getStarted p {
+    position: relative;
+}
+.getStarted button{
+    position: relative;
+}
+
+.header p{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: overline;
+}
+.onlineService img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgDes p{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 25px;
+    font-style: italic;
+}
+#quotes{
+    font-size: 27px;
+    font-style: italic;
+    text-align: center;
+    font-weight: 500;
+}
+.cardItems p{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+    font-style: italic;
+}
+.travelGuide img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.findLocation img{
+    width: 450px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#smallImg img{
+    width: 420px;
+    height: 300px;
+}
+.header{
+    margin-bottom: 70px;
+}
+.images img{
+    margin-bottom: 40px;
+}
+.container{
+    padding-top: 50px;
+}
+.whole{
+    background: linear-gradient(31deg, #9e9e9e, white, #918a8a);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
+}
+@keyframes AnimationName {
+    0%{background-position:36% 0%}
+    50%{background-position:65% 100%}
+    100%{background-position:36% 0%}
+}
+.rounded{
+    margin-top: 39px;
+}
+

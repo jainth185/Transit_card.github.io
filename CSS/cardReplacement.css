@@ -1,0 +1,37 @@
+li:hover{
+    font-size: 17px;
+    line-height: 15px;
+    transition-duration: 0.5s;
+}
+#pageTitle:hover{
+    color: orange;
+    font-size: 22px;
+    transition-duration: 0.3s;
+}
+.whole{
+    background: linear-gradient(31deg, #9e9e9e, white, #918a8a);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
+}
+@keyframes AnimationName {
+    0%{background-position:36% 0%}
+    50%{background-position:65% 100%}
+    100%{background-position:36% 0%}
+}
+.intro{
+    font-size: 32px;
+    font-weight: 500;
+}
+.introDes{
+    font-size: 22px;
+    text-align: center;
+}
+#deactivate{
+    color: red;
+}
+#btnFont{
+    font-size: 20px;
+}
